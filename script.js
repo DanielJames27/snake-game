@@ -5,8 +5,8 @@ const width = 20; // 20 cells per row
 const height = 20; // 20 rows
 const totalCells = width * height;
 
-let snake = [2, 1, 0]; // indexes on the grid (start snake length 3)
-let direction = 1; // +1 means moving right
+let snake = [3, 2, 1, 0]; // indexes on the grid (start snake length 3)
+let direction = 10; // +1 means moving right
 let foodIndex = 0;
 let score = 0;
 let intervalTime = 200;
