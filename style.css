@@ -6,13 +6,13 @@ body {
 
 #game-board {
   width: 500px;
-  height: 300px;
+  height: 500px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(20, 15px);
-  grid-template-rows: repeat(20, 15px);
-  border: 2px solid #333;
-  background-color: #eee;
+  grid-template-rows: repeat(7, 15px);
+  border: 2px solid #10;
+  background-color: #pink;
   position: relative;
 }
 
@@ -28,5 +28,5 @@ body {
 }
 
 .food {
-  background-color: white;
+  background-color: green;
 }
